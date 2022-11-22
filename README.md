@@ -29,7 +29,7 @@ DB_PORT=5432 # порт для подключения к БД
 2. Разверните контейнеры Docker-compose:
 
 - Для запуска необходимо выполнить команду из директории с файлом docker-compose.yaml:
-``` docker-compose up ```
+``` docker-compose up -d ```
 
 - Для пересборки контейнеров:
 ``` docker-compose up -d --build ```
